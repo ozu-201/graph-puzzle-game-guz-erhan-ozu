@@ -1,3 +1,0 @@
-C:/Users/TEMP/Desktop/graph-puzzle-game-guz-erhan-ozu-main/cmake-build-debug/CMakeFiles/graph_puzzle_game_guz_erhan_ozu_mainGraph.h.dir
-C:/Users/TEMP/Desktop/graph-puzzle-game-guz-erhan-ozu-main/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TEMP/Desktop/graph-puzzle-game-guz-erhan-ozu-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
