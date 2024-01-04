@@ -11,11 +11,12 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="DataStructures_CPP" targetName="DataStructures_CPP" />
-      <config projectName="DataStructures_CPP" targetName="DartsGame" />
-      <config projectName="DataStructures_CPP" targetName="MathematicalExpression" />
-      <config projectName="DataStructures_CPP" targetName="Polynomial" />
-      <config projectName="DataStructures_CPP" targetName="TestLinkedList" />
+      <config projectName="graph_puzzle_game_guz_erhan_ozu" targetName="Main" />
+      <config projectName="graph_puzzle_game_guz_erhan_ozu" targetName="MathematicalExpression" />
+      <config projectName="graph_puzzle_game_guz_erhan_ozu" targetName="DartsGame" />
+      <config projectName="graph_puzzle_game_guz_erhan_ozu" targetName="TestLinkedList" />
+      <config projectName="graph_puzzle_game_guz_erhan_ozu" targetName="Polynomial" />
+      <config projectName="graph_puzzle_game_guz_erhan_ozu" targetName="graph_puzzle_game_guz_erhan_ozu" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -24,7 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5901254d-7abf-49d0-8d7a-a66e38efe699" name="Changes" comment="" />
+    <list default="true" id="de0e2732-8015-4e2a-86f6-5a3c4bb75941" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +46,7 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="1.4" />
   </component>
-  <component name="ProjectId" id="2Zqa6VQPrfilPsVEmHfBIS8H5vg" />
+  <component name="ProjectId" id="2aUCqyGNQ2B00tqlq1GMncOJVbA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,67 +66,61 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.main.cpp">
+  <component name="RunManager" selected="CMake Application.DartsGame">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures_CPP" TARGET_NAME="TestLinkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures_CPP" RUN_TARGET_NAME="TestLinkedList" TEST_MODE="SUITE_TEST">
+    <configuration name="TestLinkedList" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" TARGET_NAME="TestLinkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" RUN_TARGET_NAME="TestLinkedList" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DartsGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures_CPP" TARGET_NAME="DartsGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures_CPP" RUN_TARGET_NAME="DartsGame">
+    <configuration name="DartsGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" TARGET_NAME="DartsGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" RUN_TARGET_NAME="DartsGame">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructures_CPP" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures_CPP" TARGET_NAME="DataStructures_CPP" CONFIG_NAME="Debug">
+    <configuration name="Main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" TARGET_NAME="Main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" RUN_TARGET_NAME="Main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathematicalExpression" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures_CPP" TARGET_NAME="MathematicalExpression" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures_CPP" RUN_TARGET_NAME="MathematicalExpression">
+    <configuration name="MathematicalExpression" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" TARGET_NAME="MathematicalExpression" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" RUN_TARGET_NAME="MathematicalExpression">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polynomial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures_CPP" TARGET_NAME="Polynomial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures_CPP" RUN_TARGET_NAME="Polynomial">
+    <configuration name="Polynomial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" TARGET_NAME="Polynomial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" RUN_TARGET_NAME="Polynomial">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures_CPP" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
-      <option name="sourceFile" value="src\main.cpp" />
+    <configuration name="graph_puzzle_game_guz_erhan_ozu" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph_puzzle_game_guz_erhan_ozu" TARGET_NAME="graph_puzzle_game_guz_erhan_ozu" CONFIG_NAME="Debug">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.main.cpp" />
       <item itemvalue="Catch.TestLinkedList" />
       <item itemvalue="CMake Application.DartsGame" />
-      <item itemvalue="CMake Application.DataStructures_CPP" />
+      <item itemvalue="CMake Application.graph_puzzle_game_guz_erhan_ozu" />
+      <item itemvalue="CMake Application.Main" />
       <item itemvalue="CMake Application.MathematicalExpression" />
       <item itemvalue="CMake Application.Polynomial" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="C/C++ File.main.cpp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5901254d-7abf-49d0-8d7a-a66e38efe699" name="Changes" comment="" />
-      <created>1703151892991</created>
+      <changelist id="de0e2732-8015-4e2a-86f6-5a3c4bb75941" name="Changes" comment="" />
+      <created>1704363965016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703151892991</updated>
-      <workItem from="1703151898964" duration="3676000" />
+      <updated>1704363965016</updated>
+      <workItem from="1704363967968" duration="3023000" />
     </task>
     <servers />
   </component>

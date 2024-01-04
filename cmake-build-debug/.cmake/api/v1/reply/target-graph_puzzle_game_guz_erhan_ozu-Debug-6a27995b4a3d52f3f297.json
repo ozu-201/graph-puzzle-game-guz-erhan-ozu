@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libDataStructures_CPP.a"
+			"path" : "libgraph_puzzle_game_guz_erhan_ozu.a"
 		}
 	],
 	"backtrace" : 1,
@@ -97,9 +97,9 @@
 			]
 		}
 	],
-	"id" : "DataStructures_CPP::@6890427a1f51a3e7e1df",
-	"name" : "DataStructures_CPP",
-	"nameOnDisk" : "libDataStructures_CPP.a",
+	"id" : "graph_puzzle_game_guz_erhan_ozu::@6890427a1f51a3e7e1df",
+	"name" : "graph_puzzle_game_guz_erhan_ozu",
+	"nameOnDisk" : "libgraph_puzzle_game_guz_erhan_ozu.a",
 	"paths" : 
 	{
 		"build" : ".",

@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/DataStructures_CPP"
+			"value" : "C:/Program Files (x86)/graph_puzzle_game_guz_erhan_ozu"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "DataStructures_CPP"
+			"value" : "graph_puzzle_game_guz_erhan_ozu"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1254,7 +1254,19 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DataStructures_CPP_BINARY_DIR",
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "graph_puzzle_game_guz_erhan_ozu_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1266,7 +1278,7 @@
 			"value" : "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-guz-erhan-ozu/cmake-build-debug"
 		},
 		{
-			"name" : "DataStructures_CPP_IS_TOP_LEVEL",
+			"name" : "graph_puzzle_game_guz_erhan_ozu_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1278,7 +1290,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "DataStructures_CPP_SOURCE_DIR",
+			"name" : "graph_puzzle_game_guz_erhan_ozu_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1288,18 +1300,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-guz-erhan-ozu"
-		},
-		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",
