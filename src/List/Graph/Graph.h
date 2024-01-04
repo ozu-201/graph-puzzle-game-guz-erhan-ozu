@@ -9,6 +9,8 @@
 #include <fstream>
 #include "EdgeList.h"
 #include "../../General/AbstractGraph.h"
+#include <unordered_map>
+#include <vector>
 
 namespace list {
 
@@ -28,22 +30,28 @@ namespace list {
         void createGraphWithLength(Graph& graph, const std::vector<std::string>& words);
         void createGraphByWordGroup(std::ifstream& turkishFile,std::ifstream& englishFile, int wordLength);
         std::vector<std::string> words;
+        std::unordered_map<std::string, int> wordToIndex;
 
+
+        Path *dijkstra(const std::string &startWord, const std::string &endWord);
+
+        void BFS(const std::string &startWord, const std::string &endWord);
+
+        void addEdge(const std::string &word1, const std::string &word2);
+
+        void addWord(const std::string &word1);
 
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;
         Edge* edgeList(int& edgeCount) override;
 
-        void createGraphWithLength(Graph &graph, const std::vector<std::string> &words);
 
-        void
-        createGraphByWordGroup(std::basic_ifstream<char> &turkishFile, std::basic_ifstream<char> &englishFile,
-                               int wordLength);
+        void addNode(const std::string &word);
 
-        void BFS(const std::string &startWord, const std::string &endWord);
 
-        Path *dijkstra(const std::string &startWord, const std::string &endWord);
+        int nextNodeIndex;
+
     };
 
 }

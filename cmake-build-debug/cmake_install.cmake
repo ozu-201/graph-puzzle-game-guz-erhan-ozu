@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-guz-erhan-ozu
+# Install script for directory: C:/Users/ge028774/Documents/GitHub/graph-puzzle-game-guz-erhan-ozu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-guz-erhan-ozu/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ge028774/Documents/GitHub/graph-puzzle-game-guz-erhan-ozu/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

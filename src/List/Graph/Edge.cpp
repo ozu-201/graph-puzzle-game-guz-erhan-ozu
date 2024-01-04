@@ -2,6 +2,7 @@
 // Created by Olcay Taner YILDIZ on 8.05.2023.
 //
 
+#include <string>
 #include "Edge.h"
 
 Edge::Edge(int from, int to, int weight) {
@@ -10,6 +11,7 @@ Edge::Edge(int from, int to, int weight) {
     this->weight = weight;
     next = nullptr;
 }
+
 
 void Edge::setNext(Edge *_next) {
     next = _next;

@@ -10,6 +10,7 @@
 
 namespace list {
 
+
     bool Graph::diffByOne(std::string word1, std::string word2){
         int difference=0;
 
@@ -27,6 +28,7 @@ namespace list {
         }
         return difference==1;
     }
+
     void Graph::createGraphWithLength(Graph& graph, const std::vector<std::string>& words){
         for(int i=0; i<words.size(); i++){
             for(int j=0; j<words.size(); j++){
@@ -70,6 +72,7 @@ namespace list {
         }
         int startNode = wordToIndex[startWord];
         int endNode = wordToIndex[endWord];
+        std::vector<bool> visited(vertexCount,false);
         list::Queue queue;
 
         visited[startNode] = true;
@@ -128,11 +131,11 @@ namespace list {
         }
         return &shortestPaths[target];
     }
-
-
-
-
-
+    void Graph::addNode(const std::string& word){
+        if(wordToIndex.find(word)==wordToIndex.end()){
+            wordToIndex[word] = nextNodeIndex++;
+        }
+    }
 
 
     Graph::Graph(int _vertexCount) : AbstractGraph(_vertexCount){
@@ -149,6 +152,16 @@ namespace list {
 
     void Graph::addEdge(int from, int to, int weight) {
         Edge* edge = new Edge(from, to, weight);
+        edges[from].insert(edge);
+    }
+
+    void Graph::addEdge(const std::string& word1, const std::string& word2){
+        auto it1 = wordToIndex.find(word1);
+        auto it2 = wordToIndex.find(word2);
+
+        int from = it1->second;
+        int to = it2->second;
+        Edge* edge = new Edge(from,to,1);
         edges[from].insert(edge);
     }
 

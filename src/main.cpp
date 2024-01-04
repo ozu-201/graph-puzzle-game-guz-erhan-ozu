@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "List/Graph/Graph.h"
 
 int main(){
     std::ifstream myFile;
@@ -33,7 +34,8 @@ int main(){
         std::cout << "Couldn't open file\n";
     }
 
-    Graph graph3(3);
+
+    list::Graph graph3(3);
     graph3.addWord("cat");
     graph3.addWord("cot");
     graph3.addWord("dog");
@@ -44,11 +46,11 @@ int main(){
     std::cout << "Shortest Path from 'cat' to 'dog' (BFS):\n";
     graph3.BFS("cat", "dog");
     std::cout << "Shortest Path from 'cat' to 'dog' (Dijkstra):\n";
-    graph3.Dijkstra("cat", "dog");
+    graph3.dijkstra("cat", "dog");
     std::cout << "------------------------------------------\n";
 
     // Test Case: Adding Edges with One-Letter Difference (4 letter words)
-    Graph graph4(3);
+    list::Graph graph4(3);
     graph4.addWord("dark");
     graph4.addWord("bark");
     graph4.addWord("barn");
@@ -59,11 +61,11 @@ int main(){
     std::cout << "Shortest Path from 'dark' to 'barn' (BFS):\n";
     graph4.BFS("dark", "barn");
     std::cout << "Shortest Path from 'dark' to 'barn' (Dijkstra):\n";
-    graph4.Dijkstra("dark", "barn");
+    graph4.dijkstra("dark", "barn");
     std::cout << "------------------------------------------\n";
 
     // Test Case: Adding Edges with One-Letter Difference (5 letter words)
-    Graph graph5(3);
+    list::Graph graph5(3);
     graph5.addWord("stone");
     graph5.addWord("store");
     graph5.addWord("score");
@@ -74,7 +76,7 @@ int main(){
     std::cout << "Shortest Path from 'stone' to 'score' (BFS):\n";
     graph5.BFS("stone", "score");
     std::cout << "Shortest Path from 'stone' to 'score' (Dijkstra):\n";
-    graph5.Dijkstra("stone", "score");
+    graph5.dijkstra("stone", "score");
     std::cout << "------------------------------------------\n";
 
     return 0;
